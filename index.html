@@ -1,0 +1,230 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCMarket Nicaragua</title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <!-- Google Analytics -->
+    <!-- Reemplaza G-XXXXXXXXXX con tu ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag(){
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- FUENTE -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+    <div class="navbar">
+
+        <div class="logo">PCMarket</div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+
+    <div class="hero-content">
+
+        <h1>PCMarket <span>Nicaragua</span></h1>
+
+        <p>
+            Tu tienda especializada en hardware gaming, componentes de alto rendimiento,
+            setups RGB y accesorios tecnológicos modernos.
+        </p>
+
+        <a href="#productos" class="btn">Ver Productos</a>
+
+    </div>
+
+</section>
+
+<!-- PRODUCTOS -->
+<section id="productos">
+
+    <h2 class="title">Productos Destacados</h2>
+
+    <div class="products-grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1591799265444-d66432b91588?q=80&w=1200&auto=format&fit=crop" alt="RX 6600">
+
+            <div class="card-content">
+                <h3>Tarjeta RX 6600</h3>
+                <p>Gaming de alto rendimiento para 1080p y 1440p.</p>
+                <div class="price">$300</div>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop" alt="Intel i7">
+
+            <div class="card-content">
+                <h3>Intel Core i7</h3>
+                <p>Procesador ideal para gaming y edición profesional.</p>
+                <div class="price">$350</div>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?q=80&w=1200&auto=format&fit=crop" alt="SSD">
+
+            <div class="card-content">
+                <h3>SSD NVMe 1TB</h3>
+                <p>Velocidad extrema para juegos y programas pesados.</p>
+                <div class="price">$120</div>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- VIDEOS -->
+<section id="videos">
+
+    <h2 class="title">Videos Gaming</h2>
+
+    <div class="videos-grid">
+
+        <div class="video-card">
+            <h3>Setup Gamer RGB</h3>
+
+            <iframe
+                src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+                title="Setup Gamer"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div class="video-card">
+            <h3>PC Gaming Build</h3>
+
+            <iframe
+                src="https://www.youtube.com/embed/BL4DCEp7blY"
+                title="PC Build"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+
+    <h2 class="title">Contáctanos</h2>
+
+    <form>
+
+        <input type="text" placeholder="Nombre" required>
+
+        <input type="email" placeholder="Correo electrónico" required>
+
+        <textarea rows="6" placeholder="Escribe tu mensaje"></textarea>
+
+        <button type="submit" class="btn">Enviar Mensaje</button>
+
+    </form>
+
+</section>
+
+<!-- RESEÑAS -->
+<section id="resenas">
+
+    <h2 class="title">Reseñas</h2>
+
+    <div class="reviews">
+
+        <div class="review-card">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+            <p>
+                Excelente servicio y componentes de alta calidad.
+            </p>
+
+            <h4>- Carlos Martínez</h4>
+        </div>
+
+        <div class="review-card">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+            <p>
+                Los productos llegaron rápidos y en perfecto estado.
+            </p>
+
+            <h4>- María López</h4>
+        </div>
+
+        <div class="review-card">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+            <p>
+                Muy buen catálogo gaming y excelente atención.
+            </p>
+
+            <h4>- José Ramírez</h4>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>PCMarket Nicaragua © 2026</p>
+
+    <p>ventas@pcmarket.com.ni</p>
+
+    <p>+505 1234-5678</p>
+
+</footer>
+
+</body>
+</html>
