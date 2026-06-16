@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PCMarket Nicaragua - Soporte</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+background:#f4f4f4;
+margin:0;
+}
+
+header{
+background:#111827;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+button{
+background:#2563eb;
+color:white;
+border:none;
+padding:12px 20px;
+cursor:pointer;
+border-radius:5px;
+margin:5px;
+}
+
+button:hover{
+background:#1d4ed8;
+}
+
+#resultado{
+margin-top:20px;
+padding:15px;
+background:#f9fafb;
+border-radius:8px;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Centro de Soporte</h1>
+
+<nav>
+<a href="index.html">Inicio</a>
+<a href="productos.html">Productos</a>
+<a href="ofertas.html">Ofertas</a>
+<a href="soporte.html">Soporte</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>¿Necesitas ayuda?</h2>
+
+<p>
+Selecciona una opción:
+</p>
+
+<button onclick="mostrarInstalacion()">
+Guía de Instalación
+</button>
+
+<button onclick="mostrarGarantia()">
+Garantía
+</button>
+
+<button onclick="window.location.href='contacto.html'">
+Contactar Soporte
+</button>
+
+<div id="resultado">
+
+Seleccione una opción.
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+PCMarket Nicaragua © 2026
+
+</footer>
+
+<script>
+
+function mostrarInstalacion(){
+
+document.getElementById("resultado").innerHTML=
+
+`
+<h3>Guía de Instalación</h3>
+
+<ul>
+
+<li>Apagar la computadora.</li>
+
+<li>Conectar el componente.</li>
+
+<li>Encender el equipo.</li>
+
+<li>Instalar controladores.</li>
+
+</ul>
+`;
+
+}
+
+function mostrarGarantia(){
+
+document.getElementById("resultado").innerHTML=
+
+`
+<h3>Información de Garantía</h3>
+
+<p>
+
+Todos los productos cuentan con garantía de 12 meses por defectos de fábrica.
+
+</p>
+`;
+
+}
+
+</script>
+
+</body>
+</html>
